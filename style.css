@@ -1,7 +1,39 @@
-body {
+* {
     margin: 0;
-    padding: 0;
-    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#backgroundImageContainer {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    background-image: url("photo-1585202900225-6d3ac20a6962.avif");
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
+#logo {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    color: orange;
+}
+
+#topContainer {
+    background-color: lightblue;
+    display: flex;
+    float: right;
+
+    width: 60%;
+
+    
 }
