@@ -1,39 +1,36 @@
 * {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
-#backgroundImageContainer {
+.container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.column1 {
+    
     display: flex;
     justify-content: center;
-    width: 40%;
-    height: 100vh;
-    position: relative;
+    align-items: center;
     background-image: url("photo-1585202900225-6d3ac20a6962.avif");
 }
 
-#logoContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+#odinLogo {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
 }
 
-
-#logo {
-    font-size: 2rem; /* Adjust font size as needed */
-    font-size: 40px;
-    font-weight: 800;
-    font-style: italic;
-    color: orange;
+.column2 {
+    background-color: lightgoldenrodyellow;
 }
 
-#topContainer {
-    background-color: lightblue;
-    display: flex;
-    float: right;
-
-    width: 60%;
-
-    
+#topRightSection {
+    margin-top: 15%;
+    font-size: 18px;
+    padding: 50px;
 }
+
