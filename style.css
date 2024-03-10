@@ -22,6 +22,7 @@
     font-size: 25px;
     font-weight: 900;
     color: white;
+    text-align: center
 }
 
 .column2 {
@@ -77,3 +78,16 @@
     padding-left: 10%; /* Add some left padding */
     gap: 20%; /* Add some gap between the items */
 }
+
+#creatAccountButton {
+        font-size: 1em; /* Make the text larger */
+        padding: 10px 20px; /* Add some padding to increase the size of the button */
+        background-color: #789a06; /* Light olive green */
+        border-radius: 5px;
+        border: none;
+        color: white; /* Make the text color white */
+        cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
+        margin: 30px;
+        margin-left: 60px;
+
+    }
