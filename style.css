@@ -46,6 +46,17 @@
     background-color: rgb(248, 249, 249);
 }
 
+#row2 {
+    background-color: white;
+}
+
+#letsDoThis {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px;
+}
+
 .formInput {
     display: flex;
     flex-direction: column;
@@ -57,6 +68,7 @@
 .formInputContainer {
     display: flex;
     flex-direction: column;
+    
 }
 
 #row2 form {
@@ -64,3 +76,4 @@
     justify-content: flex-start;
     padding-left: 10%; /* Add some left padding */
     gap: 20%; /* Add some gap between the items */
+}
