@@ -27,10 +27,40 @@
 .column2 {
     background-color: lightgoldenrodyellow;
 }
-
-#topRightSection {
-    margin-top: 15%;
-    font-size: 18px;
-    padding: 50px;
+/* make container 2 a grid with 3 rows that are spaced evenenly taking up the whole of the page  */
+#container1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
 }
 
+#row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    padding: 10%;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(248, 249, 249);
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.formInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#row2 form {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%; /* Add some left padding */
+    gap: 20%; /* Add some gap between the items */
