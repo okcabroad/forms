@@ -79,6 +79,10 @@
     gap: 20%; /* Add some gap between the items */
 }
 
+#row3 {ghtgray;
+    background-color:  rgb(248, 249, 249);
+}
+
 #creatAccountButton {
         font-size: 1em; /* Make the text larger */
         padding: 10px 20px; /* Add some padding to increase the size of the button */
@@ -89,5 +93,15 @@
         cursor: pointer; /* Change the cursor to a pointer when hovering over the button */
         margin: 30px;
         margin-left: 60px;
-
     }
+
+#haveAccount {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
